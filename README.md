@@ -25,6 +25,6 @@ app——>build.gradle
   
        ...
        
-	     implementation 'com.github.pimaryschoolstudent:MeterView:Tag'
+	     implementation 'com.github.pimaryschoolstudent:MeterView:1.0.0'
 	     
 	}
