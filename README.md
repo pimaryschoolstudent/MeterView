@@ -8,7 +8,7 @@ MeterView
 
 allprojects {
 
-		repositories {
+	repositories {
 		
 			...
 			
@@ -17,8 +17,9 @@ allprojects {
 		}
 		
 	}
+
 	
-  app——>build.gradle
+app——>build.gradle
   
   dependencies {
   
