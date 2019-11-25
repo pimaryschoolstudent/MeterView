@@ -21,10 +21,19 @@
         <attr name="Rate" format="integer"/>
 
         <attr name="ShowSource" format="boolean"/>
+        <attr name="ShowScaleText" format="boolean"/>
+        <attr name="ShowPoint" format="boolean"/>
+        <attr name="ShowSourceCurve" format="boolean"/>
+        <attr name="ShowCheckScaleText" format="boolean"/>
 
         <attr name="StartAnglee" format="float"/>
         <attr name="SweepAnglee" format="float"/>
 
+
+        <attr name="SourceShowType" format="enum">
+            <enum name="number" value="0"/>
+            <enum name="scaleText" value="1"/>
+        </attr>
 
         <attr name="SourceTextAlign" format="enum">
             <enum name="center" value="0"/>

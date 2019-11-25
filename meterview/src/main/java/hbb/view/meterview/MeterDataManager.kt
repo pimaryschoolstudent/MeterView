@@ -28,11 +28,19 @@ data class MeterDataManager (
     var SourceTextAlign:Int = 0,
     var Rate:Int = 0,
 
-    var ScaleTextArray:ArrayList<String> = arrayListOf("10","20","30","40","50","60","70","80","90","100"),
+    var ScaleTextArray:ArrayList<String> = arrayListOf("0","10","20","30","40","50","60","70","80","90","100"),
 
     var ShowSource:Boolean = true,
+    var ShowScaleText:Boolean = true,
+    var ShowPoint:Boolean = true,
+    var ShowSourceCurve:Boolean = true,
+    var ShowCheckScaleText:Boolean =true,
+
     var startAngle:Float = -215f,
-    var sweepAngle:Float = 250f
+    var sweepAngle:Float = 250f,
+
+    var sourceShowType:Int =0,
+    var meterDebug:Boolean = false
 ){
     var DashBoardColor:Int = 0
         set(value) {
