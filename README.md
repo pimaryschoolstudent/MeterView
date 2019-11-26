@@ -6,6 +6,7 @@ MeterView
 
 ![Image text](https://github.com/pimaryschoolstudent/MeterView/blob/master/showImage/-180180.gif)
 ![Image text](https://github.com/pimaryschoolstudent/MeterView/blob/master/showImage/-180325.gif)
+
 更多UI效果
 
 ![Image text](https://github.com/pimaryschoolstudent/MeterView/blob/master/showImage/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191126110912.png)
