@@ -129,3 +129,36 @@ app——>build.gradle
                Log.e("meter","source $source currentScaleText $currentScaleText")
            }
        })
+xml属性
+
+	    app:DashBoardColor="#1C65CE"	//底盘弧度颜色
+            app:ScaleTextColor="#888585"	//底盘弧刻度文字颜色
+            app:SourceCurveColor="#09C0E5"	//分数弧颜色
+            app:CheckScaleTextColor="#000"	//选中分数刻度颜色
+            app:PointColor="#09C0E5"		//分数点颜色
+            app:SourceTextColor="#000"		//分数颜色
+
+            app:CheckScaleTextSize="18dp"	//选中分数刻度文字大小
+            app:SourceTextSize="30dp"		//分数文字大小
+            app:ScaleTextSize="14dp"		//刻度文字大小
+
+            app:BoardCurveSize="2dp"		//底盘弧宽度大小
+            app:SourceCurveSize="10dp"		//分数弧宽度大小
+            app:PointSize="8dp"			//分数点半径大小
+
+            app:ScaleTextInterval="0dp"		//刻度离顶部的间隔大小
+            app:SourceTextInterval="0dp"	//分数离顶部的间隔大小
+            
+            app:SourceTextAlign="start"		//分数居中方式 center(底盘居中)start(底盘顶部)end (底盘底部)
+            app:SourceShowType="number"		//显示的分数类型 number:数字（百分制） scaleText:刻度文字
+            
+            app:Rate="20"			//分数弧动画速率（20/s）
+
+            app:StartAnglee="-180"		//底盘弧开始点的角度（起点为组件最右边点，当等于-90时为组件中点）
+            app:SweepAnglee="320"		//底盘弧角度大小
+
+            app:ShowSource="true"		//是否显示分数，同下
+            app:ShowScaleText="true"
+            app:ShowCheckScaleText="true"
+            app:ShowPoint="true"
+            app:ShowSourceCurve="true"
