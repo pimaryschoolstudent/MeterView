@@ -174,7 +174,6 @@ class MeterView : FrameLayout{
                 if (getSource(1) == targetS || source <= 0  ){
                     break
                 }
-
                 baseView?.postInvalidate()
             }
         }).start()
