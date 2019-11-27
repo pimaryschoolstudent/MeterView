@@ -82,7 +82,10 @@ app——>build.gradle
         meter.getDataManager().SourceTextInterval = meter.dp2Px(20.5f)  //分数离顶部的间隔大小
 
         //其他设置
-        meter.getDataManager().Rate = 30    //分数弧动画速率（20/s）
+        meter.getDataManager().Rate = 30    //分数弧动画速率（30/s）
+
+
+
 
         meter.getDataManager().ShowSource = true //是否显示分数
 
